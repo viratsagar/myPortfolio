@@ -10,6 +10,7 @@ import Mynavbar from "./components/my-navbar/mynavbar.component";
 import MyCarousal from "./components/my-carousel/mycarousel.component";
 import TitleMessage from "./components/title-message/titlemessage.components"
 import About from "./pages/about/about.component"
+import Skills from "./pages/skills/skills.component"
 
 const App=()=> {
   return (
@@ -25,6 +26,15 @@ const App=()=> {
       </Fade>
       </Container>
       </Parallax>
+      </div>
+      <div>
+     
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+      <Skills/>
+      </Fade>
+      </Container>
+      
       </div>
     </div>
   );

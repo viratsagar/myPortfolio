@@ -14,20 +14,18 @@ const About = () => {
     return (
       <div id="about">
         <div className="about">
-          <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
+          <h1 className="pt-3 text-center font-details-b pb-3">ABOUT ME</h1>
           <Container>
             <Row className="pt-3 pb-5 align-items-center">
               <Col xs={12} md={6}>
                 <Row className=" align-items-start p-2 my-details rounded">
-                  Hi there! I am <strong>&nbsp;Virat Sagar</strong>
-                  <br />A passionate programmer and a Coach. I am a Full Stack Web Developer with React.js, Redux as my tech stack.
-                  <br />
+                  <br /><strong>A passionate programmer and a story teller.
                   A Computer Science and Engineering B.Tech.
                   <br />
-                  Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
-                  <br />
-                  Along with that, I also help people as a COACH on their journey of becoming a professional programmer. 
-                  <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                  I have a track record of providing state of the art solutions to the customers by designing scalabale software applications with high availability.
+               
+                  <br />I love learning new technologies,and how they help in building a better tomorrow.
+                  <br /></strong>
                   <br /> <br />
                   <Col className="d-flex justify-content-center flex-wrap">
                     <div>
